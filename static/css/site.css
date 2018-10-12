@@ -1,0 +1,61 @@
+/*web background*/ 
+.container {
+	display:table;
+	height:100%;
+}
+.row {
+	display:table-cell;
+	vertical-align:middle;
+}
+/* centered columns styles */ .row-centered {
+	text-align:center;
+}
+.col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:-4px;
+}
+#expression_area {
+	height:100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#editor {
+    /*width: 500px;*/
+    height: 50px;
+}
+
+#refresh_button {
+	position: absolute;
+	bottom: 0;
+}
+
+.my-form {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn.dropdown-toggle.btn-light {
+	height: 40px;
+}
+
+.dropdown.bootstrap-select {
+	width: 100px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 70px;
+}
+
+.filter-option-inner-inner {
+	text-align: center;
+}
