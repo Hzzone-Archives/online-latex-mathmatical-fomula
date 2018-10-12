@@ -12,4 +12,7 @@
 ## 使用
 在线预览: [demo](https://hzzone.io/api/latex)
 
+
+![demo](demo.gif)
+
 可以研究一下代码，非常简单，只需要改几个链接就可以架设到自己的服务器上。
