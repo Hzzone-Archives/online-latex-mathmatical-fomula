@@ -1,0 +1,46 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>在线 GFM 预览以及 公式替换</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" type="text/css"></head>
+  <link rel="stylesheet" href="static/css/editor.css" type="text/css"></head>
+  <link rel="stylesheet" href="static/css/github-markdown.css" type="text/css"></head>
+  </head>
+  <body>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+{#          processEscapes: true,#}
+          jax: ["input/TeX", "output/SVG"]
+        }
+      });</script>
+      <div>
+    <div id="root">
+      <div class="panel editor">
+        <div id="author-editor" class="content"></div>
+      </div>
+      <div class="panel result">
+        <div class="download">
+          <button id="download_button" type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="将公式替换为图片并粘贴">复制</button></div>
+        <div class="result_html markdown-body" id="result_content"></div>
+      </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/ace.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/mode-markdown.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/mode-markdown.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.1/theme-chrome.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <script src="static/js/editor.js"></script>
+  </body>
+
+</html>
